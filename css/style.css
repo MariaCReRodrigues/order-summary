@@ -1,0 +1,145 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  width: 100%;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:  hsl(225, 100%, 94%);
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+}
+
+h4 {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+}
+
+.card {
+  width: 30%;
+  height: 600px;
+  border-radius: 1rem;
+  background-color: white;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header-img {
+  width: 100%;
+  background-color: white;
+}
+
+.hero-img {
+  width: 100%;
+}
+.texto{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.p-texto {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.preco-anual {
+  width: 75%;
+  height: 80px;
+  margin: auto;
+  background-color: hsl(225, 100%, 98%);
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.nota-musical, .texto-anual, .div-mudar-plano {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+.img-nota-musical {
+  width: 90%;
+  margin: 0;
+}
+
+.p-preco{
+  font-size: 14px;
+  text-align: center;
+}
+
+.cantinho {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  line-height: 0.5;
+  text-align: left;
+  display: inline-block;
+}
+.nota-musical{
+  margin: 0 20px;
+}
+
+.texto-anual{
+  line-height: 0.3;
+  padding-top: 5px;
+  text-align:center;
+}
+
+.div-mudar-plano {
+  margin-left: 50px;
+  vertical-align: 80%;
+}
+.mudar-plano {
+  margin: 0;
+  font-size: 12px;
+}
+
+.mudar-plano:hover {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.botoes {
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+}
+
+.btn-proceed {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 0.4rem;
+  box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+}
+
+.btn-proceed:hover{
+  background-color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.btn-cancel {
+  color:hsl(224, 23%, 55%);
+  background-color: transparent;
+  font-weight: 900;
+
+}
+
+.btn-cancel:hover{
+  color: black;
+  cursor: pointer;
+}
